@@ -7,9 +7,9 @@ package com.tms.lesson12.prog00UsingJoin;
  */
 public class JoinMain {
     public static void main(String[] args) {
-        T1 t1 = new T1();
-        T2 t2 = new T2();
-        T3 t3 = new T3();
+        T t1 = new T();
+        T t2 = new T();
+        T t3 = new T();
 
         Thread one = new Thread(t1);
         one.setName("Т1");
